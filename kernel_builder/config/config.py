@@ -11,7 +11,7 @@ BUILD_HOST: Final[str] = "esk"
 IMAGE_COMP: Final[Literal["raw", "lz4", "gz"]] = "gz"
 
 # ---- Kernel
-KERNEL_REPO: Final[str] = "android.googlesource.com:kernel/common"
+KERNEL_REPO: Final[str] = "github.com:xiaoxindada/android_kernel_common"
 KERNEL_BRANCH: Final[str] = "android14-6.1"
 
 # ---- AnyKernel3
