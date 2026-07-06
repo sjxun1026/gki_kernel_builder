@@ -19,7 +19,7 @@ ANYKERNEL_REPO = "github.com:osm0sis/AnyKernel3"
 ANYKERNEL_BRANCH = "master"
 
 # ---- Release
-RELEASE_REPO: Final[str] = http:s//github.com/"android.googlesource.com:kernel/common"
+RELEASE_REPO: Final[str] = https://github.com/"android.googlesource.com:kernel/common"
 RELEASE_BRANCH: Final[str] = "android14-6.1"
 
 # ---- Clang
