@@ -11,7 +11,7 @@ BUILD_HOST: Final[str] = "esk"
 IMAGE_COMP: Final[Literal["raw", "lz4", "gz"]] = "gz"
 
 # ---- Kernel
-KERNEL_REPO: Final[str] = "https://github.com/xiaoxindada/android_kernel_common"
+KERNEL_REPO: Final[str] = "github.com:xiaoxindada/android_kernel_common"
 KERNEL_BRANCH: Final[str] = "android14-6.1"
 
 # ---- AnyKernel3
@@ -19,7 +19,7 @@ ANYKERNEL_REPO = "github.com:osm0sis/AnyKernel3"
 ANYKERNEL_BRANCH = "master"
 
 # ---- Release
-RELEASE_REPO: Final[str] = https://github.com/"android.googlesource.com:kernel/common"
+RELEASE_REPO: Final[str] = "github.com:"android.googlesource.com:kernel/common"
 RELEASE_BRANCH: Final[str] = "android14-6.1"
 
 # ---- Clang
