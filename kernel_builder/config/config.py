@@ -17,6 +17,7 @@ KERNEL_BRANCH: Final[str] = "android14-6.1"
 # ---- AnyKernel3
 ANYKERNEL_REPO = "github.com/bachnxuan/AnyKernel3"
 ANYKERNEL_BRANCH = "android14-6.1"
+
 # ---- Release
 RELEASE_REPO: Final[str] = "android.googlesource.com/kernel/common"
 RELEASE_BRANCH: Final[str] = "android14-6.1"
